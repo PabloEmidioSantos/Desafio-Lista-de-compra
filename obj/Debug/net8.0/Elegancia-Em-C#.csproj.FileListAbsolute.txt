@@ -1,0 +1,15 @@
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\bin\Debug\net8.0\Elegancia-Em-C#.exe
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\bin\Debug\net8.0\Elegancia-Em-C#.deps.json
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\bin\Debug\net8.0\Elegancia-Em-C#.runtimeconfig.json
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\bin\Debug\net8.0\Elegancia-Em-C#.dll
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\bin\Debug\net8.0\Elegancia-Em-C#.pdb
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.GeneratedMSBuildEditorConfig.editorconfig
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.AssemblyInfoInputs.cache
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.AssemblyInfo.cs
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.csproj.CoreCompileInputs.cache
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.sourcelink.json
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.dll
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\refint\Elegancia-Em-C#.dll
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.pdb
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\Elegancia-Em-C#.genruntimeconfig.cache
+E:\Myprojects- Pablo\Desafio-Lista-de-compra\obj\Debug\net8.0\ref\Elegancia-Em-C#.dll
