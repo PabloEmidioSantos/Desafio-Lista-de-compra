@@ -84,6 +84,34 @@ public class Program
             return total;
         }
 
+    static void EditarItem(List<Item> lista)
+    {
+        System.Console.WriteLine("Digite o ID do produto que desejar Editar");
+        int id = int.Parse(Console.ReadLine());
+
+        Item item = lista.Find(i => i.Id == id);
+        if (item != null)
+        {
+            Console.Write("Novo Nome: ");
+            item.Nome = Console.ReadLine();
+
+            Console.Write("Novo Valor: ");
+            item.Valor = double.Parse(Console.ReadLine());
+                if (item.Valor < 0)
+                {
+                    Console.WriteLine("Valor inválido. O valor não pode ser negativo.");
+                    return;
+                }
+
+            Console.WriteLine("Item editado com sucesso!");
+        }
+        else
+        {
+            Console.WriteLine("Item não encontrado.");
+        }
+        
+    }
+
 
 
 
