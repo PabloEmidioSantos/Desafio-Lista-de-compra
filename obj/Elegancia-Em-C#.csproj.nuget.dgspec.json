@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Myprojects- Pablo\\Desafio-Lista-de-compra\\Elegancia-Em-C#.csproj": {}
+    "/home/pablo/Documentos/Desafio-Lista-de-compra/Elegancia-Em-C#.csproj": {}
   },
   "projects": {
-    "E:\\Myprojects- Pablo\\Desafio-Lista-de-compra\\Elegancia-Em-C#.csproj": {
+    "/home/pablo/Documentos/Desafio-Lista-de-compra/Elegancia-Em-C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Myprojects- Pablo\\Desafio-Lista-de-compra\\Elegancia-Em-C#.csproj",
+        "projectUniqueName": "/home/pablo/Documentos/Desafio-Lista-de-compra/Elegancia-Em-C#.csproj",
         "projectName": "Elegancia-Em-C#",
-        "projectPath": "E:\\Myprojects- Pablo\\Desafio-Lista-de-compra\\Elegancia-Em-C#.csproj",
-        "packagesPath": "C:\\Users\\pablo.santos\\.nuget\\packages\\",
-        "outputPath": "E:\\Myprojects- Pablo\\Desafio-Lista-de-compra\\obj\\",
+        "projectPath": "/home/pablo/Documentos/Desafio-Lista-de-compra/Elegancia-Em-C#.csproj",
+        "packagesPath": "/home/pablo/.nuget/packages/",
+        "outputPath": "/home/pablo/Documentos/Desafio-Lista-de-compra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pablo.santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/pablo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -53,12 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\pablo.santos\\Downloads\\dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/var/snap/dotnet/common/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
