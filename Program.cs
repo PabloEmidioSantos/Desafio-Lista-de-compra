@@ -12,6 +12,12 @@ public class Program
             public double Valor { get; set; }
         }
 
+    class CarrinhoItem
+        {
+            public Item Produto { get; set; }
+            public int Quantidade { get; set; }
+        }
+
 
 //Colocar um novo item pq o imbecil do user é um imbecil 
     static void AdicionarItem(List<Item> lista)

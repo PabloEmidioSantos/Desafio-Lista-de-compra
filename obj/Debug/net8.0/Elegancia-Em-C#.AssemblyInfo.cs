@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Elegancia-Em-C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9563c03a5a3dd20410c5066ef3c91cadf3e1aa50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc009174b010558a3b6a1c6d4b39539d7765d2d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Elegancia-Em-C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Elegancia-Em-C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
