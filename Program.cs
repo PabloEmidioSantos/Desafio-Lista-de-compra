@@ -19,6 +19,26 @@ public class Program
         }
 
 
+    static void AdicionarAoCarrinho(List<Item> produtos, List<CarrinhoItem> carrinho)
+{
+    if (produtos.Count == 0)
+    {
+        Console.WriteLine("Não existem produtos cadastrados.");
+        return;
+    }
+
+    Console.WriteLine("=== Produtos ===");
+    ListarItens(produtos);
+
+    Console.Write("\nDigite o ID do produto: ");
+    int id = int.Parse(Console.ReadLine());
+
+    Item produto = produtos.Find(p => p.Id == id);
+
+    
+}
+
+
 //Colocar um novo item pq o imbecil do user é um imbecil 
     static void AdicionarItem(List<Item> lista)
         {
