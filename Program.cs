@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+//BEM VINDO AO APÍCE DA DESGRAÇA!!!!!! AQUI TUDOS OS SEUS PIORES PESADELOS EM C# E POO SE TORNAM REAIS
 using System;
 public class Program
 {
@@ -35,9 +36,40 @@ public class Program
 
     Item produto = produtos.Find(p => p.Id == id);
 
-    
+    if (produto == null)
+    {
+        Console.WriteLine("Produto não encontrado.");
+        return;
+    }
+
+    Console.Write("Quantidade: ");
+    int quantidade = int.Parse(Console.ReadLine());
+
+    if (quantidade <= 0)
+    {
+        Console.WriteLine("Quantidade inválida.");
+        return;
+    }
+
+    CarrinhoItem item = carrinho.Find(c => c.Produto.Id == id);
+
+    if (item != null)
+    {
+        item.Quantidade += quantidade;
+    }
+    else
+    {
+        carrinho.Add(new CarrinhoItem
+        {
+            Produto = produto,
+            Quantidade = quantidade
+        });
+    }
+
+    Console.WriteLine("Produto adicionado ao carrinho!");
 }
 
+//eu do futuro, quando eu fiz este metodo AdicionarAoCarrinho, estava inspirado e me sentindo até inteligente, então se vc esta lendo isto e não sabe direito oque esta acontecendo, por favor, eu lhe implhoro e lhe peço encarecidamente, NÃO MEXA!!!!!!
 
 //Colocar um novo item pq o imbecil do user é um imbecil 
     static void AdicionarItem(List<Item> lista)
@@ -137,7 +169,6 @@ public class Program
         }
         
     }
-
 
 
 
