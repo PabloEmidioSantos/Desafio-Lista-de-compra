@@ -69,6 +69,25 @@ public class Program
     Console.WriteLine("Produto adicionado ao carrinho!");
 }
 
+    static void MostrarCarrinho(List<CarrinhoItem> carrinho)
+{
+    if (carrinho.Count == 0)
+    {
+        Console.WriteLine("Carrinho vazio.");
+        return;
+    }
+
+    Console.WriteLine("=== CARRINHO ===");
+
+    foreach (CarrinhoItem item in carrinho)
+    {
+        Console.WriteLine(
+            $"{item.Produto.Nome} | Qtd: {item.Quantidade} | Total: R$ {(item.Produto.Valor * item.Quantidade):F2}"
+        );
+    }
+}
+
+
 //eu do futuro, quando eu fiz este metodo AdicionarAoCarrinho, estava inspirado e me sentindo até inteligente, então se vc esta lendo isto e não sabe direito oque esta acontecendo, por favor, eu lhe implhoro e lhe peço encarecidamente, NÃO MEXA!!!!!!
 
 //Colocar um novo item pq o imbecil do user é um imbecil 
